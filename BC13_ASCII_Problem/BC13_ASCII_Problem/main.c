@@ -13,22 +13,22 @@
 int main()				//思路一
 {
 	int i = 0;
-	int arr[] = {73, 32 , 99, 97, 110, 32, 100, 111, 32, 105, 116, 33};
-	for (i = 0; i < 12; i++) {
-		printf("%c", arr[i]);
+	int arr[] = {73, 32 , 99, 97, 110, 32, 100, 111, 32, 105, 116, 33};//创建数组
+	for (i = 0; i < 12; i++) {										   //for循环
+		printf("%c", arr[i]);										   //输出	
 	}
 	return 0;
 }
 /*
 int main()
 {
-	int arr[] = {73, 32 , 99, 97, 110, 32, 100, 111, 32, 105, 116, 33};
-	int i = 0;
-	int sz=sizeof(arr)/sizeof(arr[0]);
-	while(i<sz)
+	int arr[] = {73, 32 , 99, 97, 110, 32, 100, 111, 32, 105, 116, 33};//创建数组
+	int i = 0;														   
+	int sz=sizeof(arr)/sizeof(arr[0]);								   //求数组的长度
+	while(i<sz)														   //while循环
 	{
-		printf("%c",arr[i]);
-		i+=1;
+		printf("%c",arr[i]);										   //输出	
+		i+=1;														   //i+1，也可以下写成i++
 	}
 	return 0;
 }
